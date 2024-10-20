@@ -25,30 +25,6 @@ The primary business objective of this project was to **predict whether a client
 
 The dataset used in this analysis is sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/bank+marketing). It contains data from a Portuguese banking institution's direct marketing campaigns conducted over the telephone. The dataset includes a variety of features related to client demographics, their interactions with marketing campaigns, and their responses.
 
-### Key Features:
-
-1. **age**: Numeric.
-2. **job**: Categorical (e.g., 'admin.', 'blue-collar', etc.).
-3. **marital**: Categorical (e.g., 'married', 'single', etc.).
-4. **education**: Categorical (e.g., 'basic.4y', 'high.school', etc.).
-5. **default**: Categorical ('no', 'yes', 'unknown').
-6. **housing**: Categorical ('no', 'yes', 'unknown').
-7. **loan**: Categorical ('no', 'yes', 'unknown').
-8. **contact**: Categorical ('cellular', 'telephone').
-9. **month**: Categorical ('jan', 'feb', ..., 'dec').
-10. **day_of_week**: Categorical ('mon', 'tue', ..., 'fri').
-11. **duration**: Numeric (seconds).
-12. **campaign**: Numeric (number of contacts during this campaign).
-13. **pdays**: Numeric (days since last contact from previous campaign).
-14. **previous**: Numeric (number of contacts before this campaign).
-15. **poutcome**: Categorical ('failure', 'nonexistent', 'success').
-16. **emp.var.rate**: Numeric (employment variation rate).
-17. **cons.price.idx**: Numeric (consumer price index).
-18. **cons.conf.idx**: Numeric (consumer confidence index).
-19. **euribor3m**: Numeric (euribor 3 month rate).
-20. **nr.employed**: Numeric (number of employees).
-21. **y**: Binary target variable ('yes', 'no') indicating subscription to a term deposit.
-
 **Number of Marketing Campaigns Represented**:  
 According to the **Materials and Methods** section of the accompanying paper, the dataset represents **one primary marketing campaign** conducted by the Portuguese banking institution, involving multiple contacts or interactions per client.
 
